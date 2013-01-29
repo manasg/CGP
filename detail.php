@@ -40,7 +40,8 @@ echo '<div class="graphs">';
 plugin_header($host, $plugin);
 
 $term = array(
-	'2hour'	=> 3600*2,
+    '30mins' => 1800,
+	'1hour'	=> 3600*1,
 	'8hour'	=> 3600*8,
 	'day'	=> 86400,
 	'week'	=> 86400*7,
